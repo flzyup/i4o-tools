@@ -1,4 +1,12 @@
 #!/bin/sh
+# i4o-git-update
+# A tools for more convenient to update git repositories.
+#
+# Author: Yonnie Lu
+# Gayhub: https://github.com/flzyup/i4o-tools
+# Email: yonnie.lu.inc@gmail.com
+# Blog: https://i4o.xyz
+
 for i in `find . -type d -name ".git"`;do
 	(
 	d=${i%'.git'}
